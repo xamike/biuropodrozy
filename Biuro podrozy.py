@@ -3,9 +3,9 @@ import random
 class DestinationSelector:
     def __init__(self):
         self.base1 = {
-            "Paris": {"duration": 7, "capacity": 2},
-            "Berlin": {"duration": 5, "capacity": 3},
-            "Warsaw": {"duration": 6, "capacity": 4}
+            "Paris": {"duration": 7, "capacity": 5},
+            "Berlin": {"duration": 5, "capacity": 4},
+            "Warsaw": {"duration": 6, "capacity": 3}
         }
         self.base2 = {
             "New York": {"duration": 8, "capacity": 2},
