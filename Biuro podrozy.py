@@ -64,7 +64,7 @@ def main():
             print("Exiting the program. Goodbye!")
             break
         else:
-            print("Invalid choice. Please enter a number between 1 and 3.\n")
+            print("Invalid choice. Please enter a number between 1 and 2.\n")
 
 if __name__ == "__main__":
     main()
