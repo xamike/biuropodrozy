@@ -60,7 +60,7 @@ def main():
             print(f"You are going to: {selected_place}")
             print(f"Details: ${details['price']}, Duration: {details['duration']} days, Capacity: {details['capacity']} people\n")
 
-        elif choice == "3":
+        elif choice == "2":
             print("Exiting the program. Goodbye!")
             break
         else:
