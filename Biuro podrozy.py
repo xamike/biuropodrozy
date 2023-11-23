@@ -8,19 +8,19 @@ class DestinationSelector:
             "Warsaw": {"duration": 6, "capacity": 3}
         }
         self.base2 = {
-            "New York": {"duration": 8, "capacity": 2},
+            "New York": {"duration": 8, "capacity": 4},
             "Papeete": {"duration": 10, "capacity": 3},
-            "Sydney": {"duration": 7, "capacity": 4}
+            "Sydney": {"duration": 7, "capacity": 7}
         }
         self.base3 = {
-            "Tokyo": {"duration": 9, "capacity": 2},
-            "Beijing": {"duration": 6, "capacity": 3},
+            "Tokyo": {"duration": 9, "capacity": 10},
+            "Beijing": {"duration": 6, "capacity": 6},
             "Seoul": {"duration": 8, "capacity": 4}
         }
         self.base4 = {
             "Riyad": {"duration": 5, "capacity": 2},
-            "Cairo": {"duration": 7, "capacity": 3},
-            "Lagos": {"duration": 4, "capacity": 4}
+            "Cairo": {"duration": 7, "capacity": 5},
+            "Lagos": {"duration": 4, "capacity": 3}
         }
 
         self.bases = [self.base1, self.base2, self.base3, self.base4]
