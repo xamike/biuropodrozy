@@ -38,8 +38,7 @@ class DestinationSelector:
 def display_menu():
     print("Destination Selector Menu:")
     print("1. Roll a random place")
-    print("2. Explore a specific base")
-    print("3. Exit")
+    print("2. Exit")
 
 def explore_base(base):
     print("\nExploring Base:")
@@ -54,18 +53,13 @@ def main():
 
     while True:
         display_menu()
-        choice = input("Enter your choice (1-3): ")
+        choice = input("Enter your choice (1-2): ")
 
         if choice == "1":
             selected_place, details = selector.select_destination()
             print(f"You are going to: {selected_place}")
             print(f"Details: ${details['price']}, Duration: {details['duration']} days, Capacity: {details['capacity']} people\n")
-        elif choice == "2":
-            base_choice = int(input("Enter the base number to explore (1-4): "))
-            if 1 <= base_choice <= 4:
-                explore_base(selector.bases[base_choice - 1])
-            else:
-                print("Invalid base number. Please enter a number between 1 and 4.\n")
+
         elif choice == "3":
             print("Exiting the program. Goodbye!")
             break
