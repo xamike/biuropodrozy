@@ -40,12 +40,6 @@ def display_menu():
     print("1. Roll a random place")
     print("2. Exit")
 
-def explore_base(base):
-    print("\nExploring Base:")
-    for place, details in base.items():
-        print(f"- {place}: ${details['price']}, Duration: {details['duration']} days, Capacity: {details['capacity']} people")
-    print("")
-
 def main():
     print("Welcome to the Extended Destination Selector!")
     
